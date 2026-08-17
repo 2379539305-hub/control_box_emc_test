@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "hj-git-excel-lan": {
+      "type": "http",
+      "url": "http://10.10.206.134:8000/mcp"
+    }
+  }
+}

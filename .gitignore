@@ -1,0 +1,40 @@
+# Keil MDK Build Artifacts
+Project/Objects/
+Project/Listings/
+*.obj
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.htm
+*.dep
+*.lnp
+*.axf
+*.bin
+*.hex
+*.bak
+*.tmp
+*.__i
+*.iex
+*.sct
+*.tra
+*.plg
+*.rpt
+*.mpf
+*.mpj
+*.edk
+*.ddk
+JLinkLog.txt
+build_log.txt
+keil_build.log
+keil_build_test.log
+build.log
+
+# Whitelist necessary precompiled object libraries
+!FunctionalModul/modul_adc_position/modul_adc_position.o
+
+# IDE & Editor files
+.vscode/
+*.uvguix.*
+*.uvoptx.bak
